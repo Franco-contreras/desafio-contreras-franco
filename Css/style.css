@@ -111,7 +111,7 @@ main .fondo {
     align-items: center;
     flex-direction: column;
 }
-
+/* tenemos que animar el hero a */
 .hero a {
     font-size: 30px;
     text-decoration: none;
