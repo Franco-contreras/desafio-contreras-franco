@@ -120,7 +120,42 @@ main .fondo {
   font-family: 'calibri', sans-serif;
   text-transform: uppercase;
   border-radius: 50%;
+  animation: animacion 2s linear infinite;
+  margin-bottom: 40px;
 }
+
+/* key frame del boton */
+@keyframes animacion {
+
+ 0%{
+     box-shadow:  0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 0 rgba(29, 171, 209, .5)
+
+ }   
+
+ 30%{
+    box-shadow:  0 0 0 50px rgba(29, 171, 209, .5),  0 0 0 0 rgba(29, 171, 209, .5)
+
+ }
+
+ 65%{
+    box-shadow:  0 0 0 50px rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
+
+ }
+
+100%{
+    box-shadow:  0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
+
+}
+
+}
+
+
+
+
+
+
+
+
 
 .hero a:hover {
     color: aliceblue;
