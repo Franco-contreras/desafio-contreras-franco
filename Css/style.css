@@ -613,21 +613,25 @@ iframe {
         display: flex;
         flex-direction: row;
 
-    }
 
+    }
+.foros div {
+margin-right: 30px;
+}
 
     .titulo-foro h1 {
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
     }
 
     .foros h2 {
-        font-size: 30px;
+        font-size: 20px;
+        margin-right: 20px;
     }
 
     .foros div img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     /*----------- redes----------------- */
