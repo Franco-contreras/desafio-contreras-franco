@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-html {
 
-    margin: 0;
 
-}
+
 
 
 
@@ -46,7 +44,6 @@ h2 {
     justify-content: space-between;
     align-items: center;
     background-color: #247881;
-    grid-template-areas: header;
     grid-area: header;
 
 }
