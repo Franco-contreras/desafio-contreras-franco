@@ -305,6 +305,7 @@ iframe {
     font-size: 30px;
     color: #cdedf2;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -325,6 +326,7 @@ iframe {
     font-size: 50px;
     text-transform: uppercase;
     color: #cdedf2;
+    font-family: 'Lato', sans-serif;
 }
 
 .nuestras-redes {
@@ -360,6 +362,7 @@ iframe {
     text-align: center;
     color: #cdedf2;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 .seccion-saludos {
@@ -394,6 +397,7 @@ iframe {
     text-transform: uppercase;
     margin-top: 20px;
     margin-left: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -409,6 +413,7 @@ iframe {
     background-color: rgba(255, 255, 255, 0.242);
     border-radius: 100px;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 
