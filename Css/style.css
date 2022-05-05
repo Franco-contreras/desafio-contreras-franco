@@ -362,7 +362,8 @@ iframe {
     text-align: center;
     color: #cdedf2;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family:'Lato', sans-serif ;
+
 }
 
 .seccion-saludos {
@@ -385,7 +386,7 @@ iframe {
 
 /* ---------------sobre nosotros------------------ */
 
-.titulo-sobre-nosotros {
+ /* .titulo-sobre-nosotros {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -397,7 +398,7 @@ iframe {
     text-transform: uppercase;
     margin-top: 20px;
     margin-left: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;;
 }
 
 
@@ -430,8 +431,8 @@ iframe {
 
 
 
-}
-
+} */
+ 
 
 
 /* -----------media query------------------- */
@@ -551,11 +552,11 @@ iframe {
 
 
     /* ----------------sobre nosotros------------------- */
-    .titulo-sobre-nosotros {
+    /* .titulo-sobre-nosotros {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
+    } */
 
 
 }
