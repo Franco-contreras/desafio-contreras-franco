@@ -38,7 +38,7 @@
 
 h2 {
     text-align: center;
-    font-family:'Lato', sans-serif ;
+    font-family: 'Lato', sans-serif;
 }
 
 /* ---------Header/nav -----------*/
@@ -47,7 +47,7 @@ h2 {
     justify-content: space-between;
     align-items: center; */
     /* background-color: #247881; */
-   grid-area: header; 
+    grid-area: header;
 
 }
 
@@ -87,7 +87,9 @@ h2 {
     transition: 1s;
 } */
 
-
+.header li a {
+    text-transform: capitalize;
+}
 
 /* ---------------Main------------ */
 
@@ -103,8 +105,9 @@ main .fondo {
     z-index: -1;
 
 }
-.fondo-faq{
-    background-image:cover ;
+
+.fondo-faq {
+    background-image: cover;
     position: fixed;
     top: 0;
     width: 100%;
@@ -120,42 +123,39 @@ main .fondo {
     align-items: center;
     flex-direction: column;
 }
+
 /* tenemos que animar el hero a */
 .hero a {
     font-size: 30px;
     text-decoration: none;
     color: #8ebcc3;
-  background-color: rgba(29, 171, 209, 1);
-  padding: 70px 30px;
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  border-radius: 50%;
-  animation: animacion 2s linear infinite;
-  margin-bottom: 40px;
+    background-color: rgba(29, 171, 209, 1);
+    padding: 70px 30px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    border-radius: 50%;
+    animation: animacion 2s linear infinite;
+    margin-bottom: 40px;
 }
 
 /* key frame del boton */
 @keyframes animacion {
 
- 0%{
-     box-shadow:  0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 0 rgba(29, 171, 209, .5)
+    0% {
+        box-shadow: 0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 0 rgba(29, 171, 209, .5)
+    }
 
- }   
+    30% {
+        box-shadow: 0 0 0 50px rgba(29, 171, 209, .5), 0 0 0 0 rgba(29, 171, 209, .5)
+    }
 
- 30%{
-    box-shadow:  0 0 0 50px rgba(29, 171, 209, .5),  0 0 0 0 rgba(29, 171, 209, .5)
+    65% {
+        box-shadow: 0 0 0 50px rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
+    }
 
- }
-
- 65%{
-    box-shadow:  0 0 0 50px rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
-
- }
-
-100%{
-    box-shadow:  0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
-
-}
+    100% {
+        box-shadow: 0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
+    }
 
 }
 
@@ -193,7 +193,7 @@ main .fondo {
 
 
 
-.noticias  h2 {
+.noticias h2 {
     font-family: 'Lato', sans-serif;
     font-size: 40px;
     margin-top: 60px;
@@ -204,7 +204,7 @@ main .fondo {
 
 }
 
-.noticias > div {
+.noticias>div {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -256,7 +256,7 @@ iframe {
     padding: 20px;
     grid-area: footer;
 
-   
+
 
 }
 
@@ -371,7 +371,7 @@ iframe {
     text-align: center;
     color: #cdedf2;
     text-transform: uppercase;
-    font-family:'Lato', sans-serif ;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -395,7 +395,7 @@ iframe {
 
 /* ---------------sobre nosotros------------------ */
 
- /* .titulo-sobre-nosotros {
+/* .titulo-sobre-nosotros {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -441,7 +441,7 @@ iframe {
 
 
 } */
- 
+
 
 
 /* -----------media query------------------- */
@@ -485,10 +485,10 @@ iframe {
 
 
     /* ----------------MQfooter----------- */
-    .footer{
-        flex-direction:flex;
+    .footer {
+        flex-direction: flex;
         width: 100vw;
-        
+
     }
 
     .footer .logo-footer img {
@@ -512,9 +512,9 @@ iframe {
     }
 
     .foros {
-       margin-left: 10%;
-       margin-top: 10%;
-       margin-bottom: 25%;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 25%;
     }
 
     .foros div h2 {
@@ -545,7 +545,7 @@ iframe {
     .nuestras-redes img {
         width: 100px;
         margin-left: 20px;
-        
+
 
     }
 
@@ -554,8 +554,8 @@ iframe {
         font-size: 25px;
     }
 
-    .seccion-saludos div iframe{
-        width:400px;
+    .seccion-saludos div iframe {
+        width: 400px;
         height: 400px;
     }
 
@@ -595,14 +595,14 @@ iframe {
     .hero h1 {
         text-align: center;
     }
-    
+
 
     .noticias .titulo h2 {
         font-size: 25px;
     }
 
 
- 
+
     .noticias div div h3 {
         font-size: 20px;
         text-align: center;
@@ -611,7 +611,7 @@ iframe {
 
 
 
-    
+
     .footer {
         flex-direction: column;
         width: 100vw;
@@ -631,9 +631,10 @@ iframe {
 
 
     }
-.foros div {
-margin-right: 30px;
-}
+
+    .foros div {
+        margin-right: 30px;
+    }
 
     .titulo-foro h1 {
         font-size: 25px;
@@ -653,7 +654,7 @@ margin-right: 30px;
     /*----------- redes----------------- */
     .nuestras-redes {
         justify-content: center;
-      
+
 
     }
 
