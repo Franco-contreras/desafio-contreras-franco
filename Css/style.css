@@ -176,7 +176,8 @@ main .fondo {
 .hero h1 {
     font-size: 40px;
     margin-top: 30px;
-    color: #cdedf2;
+    color: #4acfa2;
+    text-shadow:2px 2px #060000d2;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     margin-bottom: 10%;
@@ -198,7 +199,8 @@ main .fondo {
     font-size: 40px;
     margin-top: 60px;
     margin-bottom: 40px;
-    color: #8ebcc3;
+    color: #4acfa2;
+    text-shadow:2px 2px #060000d2;
     text-transform: uppercase;
     text-align: center;
 
@@ -284,7 +286,8 @@ iframe {
 .titulo-foro h1 {
     font-size: 60px;
     margin-top: 30px;
-    color: #cdedf2;
+    color: #4acfa2;
+    text-shadow:2px 2px #060000d2;
     text-transform: uppercase;
 }
 
@@ -312,7 +315,8 @@ iframe {
 
 .foros div h2 {
     font-size: 30px;
-    color: #cdedf2;
+    color: #4acfa2;
+    text-shadow:2px 2px #060000d2;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
 }
@@ -334,7 +338,8 @@ iframe {
 .titulo-redes h1 {
     font-size: 50px;
     text-transform: uppercase;
-    color: #cdedf2;
+    color: #4acfa2;
+    text-shadow:2px 2px #060000d2;
     font-family: 'Lato', sans-serif;
 }
 
@@ -369,7 +374,8 @@ iframe {
 
     font-size: 30px;
     text-align: center;
-    color: #cdedf2;
+    color: #4acfa2;
+    text-shadow:2px 2px #060000d2;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
 
@@ -556,7 +562,7 @@ iframe {
 
     .seccion-saludos div iframe {
         width: 400px;
-        height: 400px;
+        height: 700px;
     }
 
 
@@ -656,6 +662,9 @@ iframe {
         justify-content: center;
 
 
+    }
+    .titulo-redes h1{
+        text-align: center;
     }
 
     .nuestras-redes img {
