@@ -1,0 +1,53 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #247881;
+    padding: 20px;
+    grid-area: footer;
+
+    .logo-footer {
+        img {
+            width: 150px;
+            height: 150px;
+
+        }
+    }
+
+
+    div {
+        a {
+            img {
+                width: 100px;
+                height: 100px;
+
+            }
+        }
+    }
+
+    a {
+        img {
+            width: 100px;
+            height: 100px;
+
+        }
+    }
+
+
+    a {
+        img {
+            width: 100px;
+            height: 100px;
+
+        }
+
+
+    }
+
+    div {
+        p {
+            font-size: 20px;
+        }
+    }
+
+}
