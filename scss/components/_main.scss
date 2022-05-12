@@ -21,6 +21,12 @@ main {
             text-transform: uppercase;
             font-family: 'Lato', sans-serif;
             margin-bottom: 10%;
+
+            @media screen and (max-width:896px) {
+                font-size: 30px;
+            }
+
+            @media screen and (max-width:665px) { text-align:center ;}
         }
 
         a {
@@ -39,6 +45,28 @@ main {
                 color: aliceblue;
                 text-shadow: 0;
                 transition: 1s;
+            
+            
+                @keyframes animacion {
+
+                    0% {
+                        box-shadow: 0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 0 rgba(29, 171, 209, .5)
+                    }
+                
+                    30% {
+                        box-shadow: 0 0 0 50px rgba(29, 171, 209, .5), 0 0 0 0 rgba(29, 171, 209, .5)
+                    }
+                
+                    65% {
+                        box-shadow: 0 0 0 50px rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
+                    }
+                
+                    100% {
+                        box-shadow: 0 0 0 0 rgba(29, 171, 209, .5), 0 0 0 30px rgba(29, 171, 209, .5)
+                    }
+                
+                }
+                
             }
 
         }

@@ -20,6 +20,16 @@ main .hero h1 {
   font-family: "Lato", sans-serif;
   margin-bottom: 10%;
 }
+@media screen and (max-width: 896px) {
+  main .hero h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 665px) {
+  main .hero h1 {
+    text-align: center;
+  }
+}
 main .hero a {
   font-size: 30px;
   text-decoration: none;
@@ -37,6 +47,20 @@ main .hero a:hover {
   text-shadow: 0;
   transition: 1s;
 }
+@keyframes animacion {
+  0% {
+    box-shadow: 0 0 0 0 rgba(29, 171, 209, 0.5), 0 0 0 0 rgba(29, 171, 209, 0.5);
+  }
+  30% {
+    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0.5), 0 0 0 0 rgba(29, 171, 209, 0.5);
+  }
+  65% {
+    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0.5), 0 0 0 30px rgba(29, 171, 209, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(29, 171, 209, 0.5), 0 0 0 30px rgba(29, 171, 209, 0.5);
+  }
+}
 
 .noticias h2 {
   font-family: "Lato", sans-serif;
@@ -47,6 +71,16 @@ main .hero a:hover {
   text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
   text-transform: uppercase;
   text-align: center;
+}
+@media screen and (max-width: 896px) {
+  .noticias h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 665px) {
+  .noticias h2 {
+    font-size: 25px;
+  }
 }
 .noticias div {
   display: flex;
@@ -75,6 +109,13 @@ main .hero a:hover {
   font-size: 20px;
   text-align: center;
   font-family: "Lato", sans-serif;
+}
+@media screen and (max-width: 665px) {
+  .noticias div div h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 3px;
+  }
 }
 .noticias div div a img {
   border-top-left-radius: 20px;
@@ -129,20 +170,53 @@ footer .logo-footer img {
   width: 150px;
   height: 150px;
 }
+@media screen and (max-width: 896px) {
+  footer .logo-footer img {
+    width: 70px;
+    height: 70px;
+  }
+}
 footer div a img {
   width: 100px;
-  height: 100px;
+  border-radius: 100px;
+  margin-left: 10px;
 }
-footer a img {
-  width: 100px;
-  height: 100px;
+@media screen and (max-width: 896px) {
+  footer div a img {
+    width: 60px;
+    border-radius: 100px;
+  }
 }
-footer a img {
+footer div a img {
   width: 100px;
-  height: 100px;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+footer div a img {
+  width: 100px;
+  border-radius: 100px;
+  margin-left: 10px;
 }
 footer div p {
   font-size: 20px;
+}
+@media screen and (max-width: 665px) {
+  footer div p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 896px) {
+  footer {
+    flex-direction: flex;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 665px) {
+  footer {
+    flex-direction: column;
+    width: 100vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
