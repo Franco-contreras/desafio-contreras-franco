@@ -61,8 +61,7 @@ main .hero a:hover {
     box-shadow: 0 0 0 0 rgba(29, 171, 209, 0.5), 0 0 0 30px rgba(29, 171, 209, 0.5);
   }
 }
-
-.noticias h2 {
+main .noticias h2 {
   font-family: "Lato", sans-serif;
   font-size: 40px;
   margin-top: 60px;
@@ -73,22 +72,22 @@ main .hero a:hover {
   text-align: center;
 }
 @media screen and (max-width: 896px) {
-  .noticias h2 {
+  main .noticias h2 {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 665px) {
-  .noticias h2 {
+  main .noticias h2 {
     font-size: 25px;
   }
 }
-.noticias div {
+main .noticias div {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-.noticias div div {
+main .noticias div div {
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
@@ -104,56 +103,24 @@ main .hero a:hover {
   margin-top: 10%;
   margin-bottom: 10%;
 }
-.noticias div div h3 {
+main .noticias div div h3 {
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
   font-family: "Lato", sans-serif;
 }
 @media screen and (max-width: 665px) {
-  .noticias div div h3 {
+  main .noticias div div h3 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 3px;
   }
 }
-.noticias div div a img {
+main .noticias div div a img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.noticias div div {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-  align-items: center;
-  border: 1px solid black;
-  width: 200px;
-  height: 300px;
-  border-radius: 20px;
-  box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-  background-color: rgba(250, 235, 215, 0.583);
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-.noticias div div h3 {
-  margin-top: 20px;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-}
-.noticias div div a img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-.noticias div div h3 {
-  margin-top: 20px;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-}
-.noticias div div iframe {
+main .noticias div div iframe {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -172,47 +139,41 @@ footer .logo-footer img {
 }
 @media screen and (max-width: 896px) {
   footer .logo-footer img {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
   }
 }
-footer div a img {
-  width: 100px;
-  border-radius: 100px;
+@media screen and (max-width: 665px) {
+  footer .logo-footer img {
+    width: 100px;
+    height: 100px;
+  }
+}
+footer .redes-footer a img {
+  width: 70px;
+  border-radius: 70px;
   margin-left: 10px;
 }
 @media screen and (max-width: 896px) {
-  footer div a img {
+  footer .redes-footer a img {
     width: 60px;
     border-radius: 100px;
   }
 }
-footer div a img {
-  width: 100px;
-  border-radius: 100px;
-  margin-left: 10px;
-}
-footer div a img {
-  width: 100px;
-  border-radius: 100px;
-  margin-left: 10px;
-}
 footer div p {
-  font-size: 20px;
+  font-size: 15px;
+}
+@media screen and (max-width: 896px) {
+  footer div p {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 665px) {
   footer div p {
-    font-size: 10px;
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 896px) {
-  footer {
-    flex-direction: flex;
-    width: 100vw;
-  }
-}
-@media screen and (max-width: 665px) {
   footer {
     flex-direction: column;
     width: 100vw;
