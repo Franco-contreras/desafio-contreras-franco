@@ -1,19 +1,8 @@
+$footer: (
+        display-f: flex,
+        justify-content-f: space-between,
+        align-items-f: center,
+        background-color-f: #247881,
+        padding-f: 20px,
 
-$cards:(
-border-card:1px solid black,    
-width-card:200px,
-height-card:300px,
-border-radius-card:20px,
-
-
-)
-
-
-// border: 1px solid black;
-// width: 200px;
-// height: 300px;
-// border-radius: 20px;
-//  box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-//  -webkit-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-//  -moz-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-// background-color: rgba(250, 235, 215, 0.583);
+        )

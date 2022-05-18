@@ -1,10 +1,11 @@
+@import'../base/variables';
+@import'../base/mapas';
+
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #247881;
-    padding: 20px;
-    grid-area: footer;
+    display: map-get($footer , display-f);
+    justify-content: map-get($footer, justify-content-f);
+    align-items: map-get($footer, align-items-f);
+    background-color: map-get($footer,background-color-f);
 
     .logo-footer {
         img {
@@ -13,9 +14,10 @@ footer {
 
             @media screen and (max-width:896px) {
                 width: 120px;
-                height:120px;
+                height: 120px;
             }
-            @media screen and (max-width:665px){
+
+            @media screen and (max-width:665px) {
                 width: 100px;
                 height: 100px;
             }
@@ -55,7 +57,7 @@ footer {
             }
 
             @media screen and (max-width:665px) {
-        
+
                 margin-bottom: 20px;
             }
         }
@@ -66,5 +68,5 @@ footer {
         width: 100vw;
     }
 
-   
+
 }

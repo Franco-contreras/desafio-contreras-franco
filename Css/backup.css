@@ -43,49 +43,12 @@ h2 {
 
 /* ---------Header/nav -----------*/
 .header {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    /* background-color: #247881; */
+
     grid-area: header;
 
 }
 
-/* .header nav ul {
-    display: flex;
-    list-style: none;
 
-
-}
-
-
-
-.header nav ul li {
-    margin-left: 20px;
-}
-
-.header nav ul li a {
-    text-decoration: none;
-    color: #43919B;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px white;
-    font-size: 25px;
-    margin-right: 10px;
-
-} */
-
-/* .header img {
-
-    width: 100px;
-    height: 100px;
-}
-
-.header nav ul li a:hover {
-    color: aliceblue;
-    text-shadow: 0;
-    transition: 1s;
-} */
 
 .header li a {
     text-transform: capitalize;
@@ -177,7 +140,7 @@ main .fondo {
     font-size: 40px;
     margin-top: 30px;
     color: #4acfa2;
-    text-shadow:2px 2px #060000d2;
+    text-shadow: 2px 2px #060000d2;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     margin-bottom: 10%;
@@ -200,7 +163,7 @@ main .fondo {
     margin-top: 60px;
     margin-bottom: 40px;
     color: #4acfa2;
-    text-shadow:2px 2px #060000d2;
+    text-shadow: 2px 2px #060000d2;
     text-transform: uppercase;
     text-align: center;
 
@@ -287,7 +250,7 @@ iframe {
     font-size: 60px;
     margin-top: 30px;
     color: #4acfa2;
-    text-shadow:2px 2px #060000d2;
+    text-shadow: 2px 2px #060000d2;
     text-transform: uppercase;
 }
 
@@ -316,7 +279,7 @@ iframe {
 .foros div h2 {
     font-size: 30px;
     color: #4acfa2;
-    text-shadow:2px 2px #060000d2;
+    text-shadow: 2px 2px #060000d2;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
 }
@@ -339,7 +302,7 @@ iframe {
     font-size: 50px;
     text-transform: uppercase;
     color: #4acfa2;
-    text-shadow:2px 2px #060000d2;
+    text-shadow: 2px 2px #060000d2;
     font-family: 'Lato', sans-serif;
 }
 
@@ -375,7 +338,7 @@ iframe {
     font-size: 30px;
     text-align: center;
     color: #4acfa2;
-    text-shadow:2px 2px #060000d2;
+    text-shadow: 2px 2px #060000d2;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
 
@@ -663,7 +626,8 @@ iframe {
 
 
     }
-    .titulo-redes h1{
+
+    .titulo-redes h1 {
         text-align: center;
     }
 

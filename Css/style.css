@@ -130,8 +130,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #247881;
-  padding: 20px;
-  grid-area: footer;
 }
 footer .logo-footer img {
   width: 150px;
@@ -178,6 +176,45 @@ footer div p {
     flex-direction: column;
     width: 100vw;
   }
+}
+
+main .foros div a img {
+  width: 300px;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main .foros div a img {
+  width: 300px;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main .titulo-foro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .titulo-foro h1 {
+  font-size: 60px;
+}
+main .foros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

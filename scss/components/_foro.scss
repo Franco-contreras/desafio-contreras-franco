@@ -1,0 +1,40 @@
+@import '../base/listas';
+@import'../base/extends';
+
+main {
+
+    .titulo-foro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: nth($fonts-h1, 2);
+        }
+    }
+
+    .foros {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 30px;
+
+        div {
+            h2 {}
+
+            a {
+                img {
+                   @extend %img-foro
+                }
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+}

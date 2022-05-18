@@ -1,4 +1,5 @@
 @import '../base/variables';
+@import'../base/listas';
 
 main {
     .fondo {
@@ -16,7 +17,7 @@ main {
         flex-direction: column;
 
         h1 {
-            font-size: 40px;
+            font-size:nth($fonts-h1 ,1);
             margin-top: 30px;
             color: #4acfa2;
             text-shadow: 2px 2px #060000d2;
