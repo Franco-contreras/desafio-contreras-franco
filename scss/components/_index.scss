@@ -3,6 +3,7 @@
 @import '../base/extends';
 
 main {
+    grid-area: main;
     .fondo {
         position: fixed;
         top: 0;
@@ -20,7 +21,7 @@ main {
         h1 {
             font-size:nth($fonts-h1 ,1);
             margin-top: 30px;
-            color: #4acfa2;
+            color:$font-color;
             text-shadow: 2px 2px #060000d2;
             text-transform: uppercase;
             font-family: 'Lato', sans-serif;
