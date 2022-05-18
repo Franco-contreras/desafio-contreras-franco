@@ -1,5 +1,6 @@
 @import '../base/variables';
 @import'../base/listas';
+@import '../base/extends';
 
 main {
     .fondo {
@@ -86,9 +87,7 @@ main {
             margin-top: 60px;
             margin-bottom: 40px;
             color: $font-color;
-            text-shadow: 2px 2px #060000d2;
-            text-transform: uppercase;
-            text-align: center;
+            @extend %h2;
 
             @media screen and (max-width:896px) {
                 font-size: 20px;

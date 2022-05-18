@@ -1,3 +1,11 @@
+main .foros div h2, main .noticias h2 {
+  color: #4acfa2;
+  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
 main .fondo {
   position: fixed;
   top: 0;
@@ -67,9 +75,6 @@ main .noticias h2 {
   margin-top: 60px;
   margin-bottom: 40px;
   color: #4acfa2;
-  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
-  text-transform: uppercase;
-  text-align: center;
 }
 @media screen and (max-width: 896px) {
   main .noticias h2 {
@@ -130,6 +135,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #247881;
+  grid-area: footer;
 }
 footer .logo-footer img {
   width: 150px;
@@ -178,28 +184,20 @@ footer div p {
   }
 }
 
-main .foros div a img {
-  width: 300px;
-  border-radius: 200px 200px 200px 200px;
-  -webkit-border-radius: 200px 200px 200px 200px;
-  -moz-border-radius: 200px 200px 200px 200px;
-  box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
-  -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
-  -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
-  margin-top: 30px;
-  margin-bottom: 30px;
+main .foros div h2, main .noticias h2 {
+  color: #4acfa2;
+  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
-main .foros div a img {
-  width: 300px;
-  border-radius: 200px 200px 200px 200px;
-  -webkit-border-radius: 200px 200px 200px 200px;
-  -moz-border-radius: 200px 200px 200px 200px;
-  box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
-  -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
-  -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
-  margin-top: 30px;
-  margin-bottom: 30px;
+main .foros div h2, main .noticias h2 {
+  color: #4acfa2;
+  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 main .titulo-foro {
@@ -215,6 +213,20 @@ main .foros {
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 30px;
+}
+main .foros div h2 {
+  font-size: 30px;
+}
+main .foros div a img {
+  width: 300px;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

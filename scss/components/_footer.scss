@@ -6,6 +6,7 @@ footer {
     justify-content: map-get($footer, justify-content-f);
     align-items: map-get($footer, align-items-f);
     background-color: map-get($footer,background-color-f);
+    grid-area: footer;
 
     .logo-footer {
         img {
