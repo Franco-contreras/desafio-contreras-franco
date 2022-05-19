@@ -11,7 +11,11 @@ main {
 
         h1 {
             font-size: nth($fonts-h1, 2);
-            color:$font-color;
+            color: $font-color;
+            text-shadow: 2px 2px #060000d2;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 10%;
         }
     }
 
@@ -37,7 +41,7 @@ main {
                     -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
                     -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
                     margin-top: 30px;
-                    margin-bottom: 30px;
+                    margin-bottom: 50px;
                 }
             }
         }

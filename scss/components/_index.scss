@@ -1,9 +1,11 @@
 @import '../base/variables';
 @import'../base/listas';
 @import '../base/extends';
+@import'../base/mixin';
 
 main {
     grid-area: main;
+
     .fondo {
         position: fixed;
         top: 0;
@@ -13,15 +15,14 @@ main {
     }
 
     .hero {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include flex (flex, center, space-around,);
         flex-direction: column;
 
+
         h1 {
-            font-size:nth($fonts-h1 ,1);
+            font-size: nth($fonts-h1 , 1);
             margin-top: 30px;
-            color:$font-color;
+            color: $font-color;
             text-shadow: 2px 2px #060000d2;
             text-transform: uppercase;
             font-family: 'Lato', sans-serif;
@@ -101,9 +102,10 @@ main {
         }
 
         div {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include flex(flex,center,space-around,);
+            // display: flex;
+            // justify-content: space-around;
+            // align-items: center;
             flex-wrap: wrap;
 
             div {
