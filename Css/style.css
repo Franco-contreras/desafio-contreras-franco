@@ -7,6 +7,23 @@ main .foros div h2, main .noticias h2 {
   text-align: center;
 }
 
+main .noticias div div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  background-color: rgba(250, 235, 215, 0.583);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 main {
   grid-area: main;
 }
@@ -96,22 +113,6 @@ main .noticias div {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-main .noticias div div {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-  align-items: center;
-  border: 1px solid black;
-  width: 200px;
-  height: 300px;
-  border-radius: 20px;
-  box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
-  background-color: rgba(250, 235, 215, 0.583);
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
 main .noticias div div h3 {
   margin-top: 20px;
   font-size: 20px;
@@ -196,12 +197,46 @@ main .foros div h2, main .noticias h2 {
   text-align: center;
 }
 
+main .noticias div div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  background-color: rgba(250, 235, 215, 0.583);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 main .foros div h2, main .noticias h2 {
   color: #4acfa2;
   text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   text-align: center;
+}
+
+main .noticias div div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 19px 18px 19px -1px rgba(0, 0, 0, 0.75);
+  background-color: rgba(250, 235, 215, 0.583);
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 main .titulo-foro {
