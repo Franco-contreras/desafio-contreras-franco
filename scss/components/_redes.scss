@@ -1,0 +1,58 @@
+@import '../base/variables';
+@import'../base/listas';
+
+main {
+    .titulo-redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10%;
+        height: 1px;
+
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #4acfa2;
+        text-shadow: 2px 2px #060000d2;
+        font-family: 'Lato', sans-serif;
+
+
+    }
+}
+
+.nuestras-redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20%;
+
+    a {
+        img {
+            width: 200px;
+            border-radius: 300px;
+            margin-top: 250px;
+            -webkit-border-radius: 200px 200px 200px 200px;
+            -moz-border-radius: 200px 200px 200px 200px;
+            box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+            -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+            -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+
+            @media screen and (max-width:896px) {
+                width: 190px;
+                margin-left: 10px;
+                margin-top: 30px;
+            }
+
+            @media screen and (max-width:665px) {
+                width: 120px;
+            }
+        }
+
+    }
+
+    @media screen and (max-width:896px) {
+        align-items: center;
+        justify-content: center;
+        margin-top: 30%;
+    }
+}

@@ -5,7 +5,10 @@ footer {
     display: map-get($footer , display-f);
     justify-content: map-get($footer, justify-content-f);
     align-items: map-get($footer, align-items-f);
-    background-color: map-get($footer,background-color-f);
+    background-color: #27aec3;
+    background: linear-gradient(90deg,#27aec3 1%, #247881 50%);
+    background: -webkit-linear-gradient(90deg,#27aec3 1%, #247881 50%);
+    background: -moz-linear-gradient(90deg,#27aec3 1%, #247881 50%);
     grid-area: footer;
 
     .logo-footer {

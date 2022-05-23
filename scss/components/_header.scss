@@ -1,3 +1,30 @@
 .header {
     grid-area: header;
+
+    nav {
+        background: #27aec3;
+        background: linear-gradient(270deg, #27aec3 1%, #247881 50%);
+        background: -webkit-linear-gradient(270deg, #27aec3 1%, #247881 50%);
+        background: -moz-linear-gradient(270deg, #27aec3 1%, #247881 50%);
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px black;
+
+        &:hover {
+            color: #4acfa2;
+            text-shadow: 0;
+            transition: 1s;
+            
+        }
+        
+
+    }
+    
+    
+    
 }

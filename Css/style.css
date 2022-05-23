@@ -139,7 +139,10 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #247881;
+  background-color: #27aec3;
+  background: linear-gradient(90deg, #27aec3 1%, #247881 50%);
+  background: -webkit-linear-gradient(90deg, #27aec3 1%, #247881 50%);
+  background: -moz-linear-gradient(90deg, #27aec3 1%, #247881 50%);
   grid-area: footer;
 }
 footer .logo-footer img {
@@ -251,12 +254,38 @@ main .titulo-foro h1 {
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   margin-bottom: 10%;
+  margin-top: 50px;
+}
+@media screen and (max-width: 896px) {
+  main .titulo-foro h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 665px) {
+  main .titulo-foro h1 {
+    font-size: 25px;
+    text-align: center;
+  }
 }
 main .foros {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 30px;
+}
+@media screen and (max-width: 896px) {
+  main .foros {
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
+}
+@media screen and (max-width: 665px) {
+  main .foros {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-top: 40px;
+  }
 }
 main .foros div h2 {
   font-size: 30px;
@@ -271,6 +300,19 @@ main .foros div a img {
   -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
   margin-top: 30px;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 896px) {
+  main .foros div a img {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 665px) {
+  main .foros div a img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 * {
@@ -288,6 +330,24 @@ main .foros div a img {
 
 .header {
   grid-area: header;
+}
+.header nav {
+  background: #27aec3;
+  background: linear-gradient(270deg, #27aec3 1%, #247881 50%);
+  background: -webkit-linear-gradient(270deg, #27aec3 1%, #247881 50%);
+  background: -moz-linear-gradient(270deg, #27aec3 1%, #247881 50%);
+}
+.header .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+.header .navbar-nav .nav-link:hover {
+  color: #4acfa2;
+  text-shadow: 0;
+  transition: 1s;
 }
 
 .main .titulo-saludos {
@@ -324,10 +384,54 @@ main .foros div a img {
   -webkit-box-shadow: 15px 18px 25px -2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 15px 18px 25px -2px rgba(0, 0, 0, 0.75);
 }
+
+main .titulo-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10%;
+  height: 1px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #4acfa2;
+  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
+  font-family: "Lato", sans-serif;
+}
+
+.nuestras-redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20%;
+}
+.nuestras-redes a img {
+  width: 200px;
+  border-radius: 300px;
+  margin-top: 250px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 21px 10px 19px 8px rgba(0, 0, 0, 0.59);
+}
+@media screen and (max-width: 896px) {
+  .nuestras-redes a img {
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+}
 @media screen and (max-width: 665px) {
-  .main .seccion-saludos div iframe {
-    width: 400;
-    height: 500;
+  .nuestras-redes a img {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .nuestras-redes {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
   }
 }
 
