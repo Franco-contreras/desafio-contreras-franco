@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap");
 main .foros div h2, main .noticias h2 {
   color: #4acfa2;
-  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
+  text-shadow: 2px 2px 2px rgba(6, 0, 0, 0.8235294118);
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -99,7 +99,7 @@ main .noticias h2 {
 }
 @media screen and (max-width: 896px) {
   main .noticias h2 {
-    font-size: 20px;
+    font-size: 35px;
   }
 }
 @media screen and (max-width: 665px) {
@@ -194,7 +194,7 @@ footer div p {
 
 main .foros div h2, main .noticias h2 {
   color: #4acfa2;
-  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
+  text-shadow: 2px 2px 2px rgba(6, 0, 0, 0.8235294118);
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -219,7 +219,7 @@ main .noticias div div {
 
 main .foros div h2, main .noticias h2 {
   color: #4acfa2;
-  text-shadow: 2px 2px rgba(6, 0, 0, 0.8235294118);
+  text-shadow: 2px 2px 2px rgba(6, 0, 0, 0.8235294118);
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   text-align: center;
