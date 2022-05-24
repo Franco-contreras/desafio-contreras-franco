@@ -3,18 +3,14 @@
 
 main {
     .titulo-redes {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 10%;
-        height: 1px;
-
-        font-size: 50px;
-        text-transform: uppercase;
-        color: #4acfa2;
-        text-shadow: 2px 2px #060000d2;
-        font-family: 'Lato', sans-serif;
-
+       
+        h1{font-size: 50px;
+            text-transform: uppercase;
+            color: #4acfa2;
+            text-shadow: 3px 3px 3px #060000d2;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+    }
 
     }
 }

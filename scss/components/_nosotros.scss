@@ -1,0 +1,21 @@
+@import '../base/variables';
+@import '../base/listas';
+main{
+    .nosotros{
+   div {
+    h1 {
+        font-size:60px;
+        color: $font-color;
+        text-align: center;
+        text-shadow: 3px 3px 3px black;
+    }
+   }
+   .p-3 {
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+   
+
+   }
+    }
+}
