@@ -328,6 +328,10 @@ main .foros div a img {
   grid-template-areas: "header header" "main main" "footer footer";
 }
 
+.disclaimer {
+  display: none;
+}
+
 .header {
   grid-area: header;
 }
