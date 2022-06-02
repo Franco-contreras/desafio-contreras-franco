@@ -15,7 +15,7 @@ main {
     }
 
     .hero {
-        @include flex (flex, center, space-around,);
+        @include flex (flex, center, space-around, );
         flex-direction: column;
 
 
@@ -27,6 +27,8 @@ main {
             text-transform: uppercase;
             font-family: 'Lato', sans-serif;
             margin-bottom: 10%;
+            font-weight: $font-bold;
+
 
             @media screen and (max-width:896px) {
                 font-size: 30px;
@@ -89,6 +91,8 @@ main {
             margin-top: 60px;
             margin-bottom: 40px;
             color: $font-color;
+            font-weight: $font-bold;
+
             @extend %h2;
 
             @media screen and (max-width:896px) {
@@ -102,15 +106,15 @@ main {
         }
 
         div {
-            @include flex(flex,center,space-around,);
+            @include flex(flex, center, space-around, );
             // display: flex;
             // justify-content: space-around;
             // align-items: center;
             flex-wrap: wrap;
 
             div {
-               @extend %cards;
-               
+                @extend %cards;
+
 
                 h3 {
                     margin-top: 20px;
